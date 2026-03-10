@@ -59,7 +59,8 @@ public class ReactiveAuthorization implements ReactiveAuthorizationManager<Autho
     private String TOKEN_PUBLIC;
 
     // org.egovframe.cloud.common.config.GlobalConstant 값도 같이 변경해주어야 한다.
-    public static final String AUTHORIZATION_URI = "/member-service" + "/api/v1/authorizations/check";
+//    public static final String AUTHORIZATION_URI = "/member-service" + "/api/v1/authorizations/check";
+    public static final String AUTHORIZATION_URI = "/demo-service" + "/api/authorizations/check";
     public static final String REFRESH_TOKEN_URI = "/user-service" + "/api/v1/users/token/refresh";
 
     /**
