@@ -8,3 +8,12 @@
 /dataSources.local.xml
 # 에디터 기반 HTTP 클라이언트 요청
 /httpRequests/
+
+# IDE 환경 설정 파일
+.idea/
+*.iml
+
+# 빌드 결과물 (Java/Spring Boot 기준)
+target/
+build/
+out/
