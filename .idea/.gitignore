@@ -17,3 +17,8 @@
 target/
 build/
 out/
+
+# Gradle 폴더 및 빌드 결과물
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
